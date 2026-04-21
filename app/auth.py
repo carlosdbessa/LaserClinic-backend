@@ -4,7 +4,7 @@ from passlib.context import CryptContext
 from typing import Optional
 import os
 
-SECRET_KEY = os.getenv("SECRET_KEY", "clinicbody-secret-key-2025")
+SECRET_KEY = os.getenv("SECRET_KEY", "laserclinic-secret-key-2025")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_DAYS = 7
 
